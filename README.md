@@ -2,54 +2,83 @@
 
     sudo apt-get update && sudo apt-get upgrade
     
-##### Configurar inicio
+##### Init config
+
     nano /etc/sudoers
-    #nax ALL=(ALL) NOPASSWD:ALL
+    # nax ALL=(ALL) NOPASSWD:ALL
 
-##### Brave
-    https://brave.com/linux
+##### brave
+    
+https://brave.com/linux
 
-##### Sublime
-    https://www.sublimetext.com/docs/linux_repositories.html
+##### sublime text
 
-##### Git
+https://www.sublimetext.com/docs/linux_repositories.html
+
+##### git
+
+https://git-scm.com/download/linux
+
     apt-get install git && git --version
 
-##### Nvm 
+##### nvm 
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
     source ~/.bashrc
+    
+##### pnpm
+https://pnpm.io/installation#on-alpine-linux
 
 ### Atajos terminal
-    alt + q -> subl
-    alt + w -> python3 /home/nax/.miConfig/launch-or-focus-brave.py
-    alt + e -> io.elementary.files
-    alt + r -> io.elementary.terminal
+    # alt + 
+    q subl
+    w python3 /home/nax/.miConfig/launch-or-focus-brave.py
+    m io.elementary.files
+    e io.elementary.terminal
+    x brave-browser https://github.com/naxo25/
+    n brave-browser https://github.com/mediatique-press
+    g python3 /home/nax/Documentos/configs/launch-or-focus-browser2.py
+    a codium
     
-##### Instalar jump para launch-or-focus
+##### Install jump para launch-or-focus
     alt + r -> io.elementary.terminal
     git clone https://github.com/mkropat/jumpapp.git
     cd jumpapp
     sudo apt install make
     sudo apt install wmctrl
     make && sudo make install
+
+##### Code launch-or-focus
+
+    # importing webbrowser python module
+    import webbrowser
+    import subprocess
+
+    #Assigning URL to be opened
+    url = "https://nacholabraweb.000webhostapp.com/"
+    link = subprocess.run(["/home/nax/Documentos/configs/jumpapp/jumpapp", atajo])
+
+    # Detectar si navegador esta abierto
+    if (link.returncode == 0):
+        print (link.returncode);
+    else:
+        #Open url in default browser
+        webbrowser.open(url);
+
+Atajos, "brave" "google-chrome" "smerge" "subl"
+
+Esté codigo es para saltar entre aplicaciones usando atajos del teclado.
+Made in naxo25
+
+
 	
-##### Config editor
+##### Config sublime text
 
     Console wrap
     Matherial Theme
     StandardFormat
     tailwind CSS Autocomplete
     Vue syntax highlight
+    
+##### Snippets for sublime
 
 https://github.com/naxo25/Snippets-Copilot
-
-
-##### NodeJs
-
-    const express = require('express'),
-    const app = express();
-    const port = process.env.PORT || 3000;
-
-    res.header('Access-Control-Allow-Origin', '*');
-    app.listen(port, () =>
-    console.log(`http://localhost:${3000}`))
