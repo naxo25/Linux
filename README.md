@@ -21,6 +21,17 @@ https://git-scm.com/download/linux
 
     apt-get install git && git --version
 
+##### ssh keys
+
+	$ ssh-keygen -t rsa -b 2048 -C "notebook linux"
+	Enter file in which to save the key (/home/naxo/.ssh/id_rsa): /home/naxo/.ssh/id_ssh, , 
+
+	# Copiar salida en [https://github.com/settings/keys] (https://github.com/settings/keys)
+	cat /home/naxo/.ssh/id_ssh.pub
+
+	# Agrega la llave ssh a tu pc 
+	ssh-add /home/naxo/.ssh/id_ssh
+
 ##### nvm 
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
     source ~/.bashrc
