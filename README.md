@@ -38,6 +38,9 @@ https://git-scm.com/download/linux
     
 ##### pnpm
 https://pnpm.io/installation#on-alpine-linux
+    
+##### alias
+https://github.com/naxo25/alias-for-linux
 
 ### Atajos terminal
     # alt + 
