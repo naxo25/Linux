@@ -85,14 +85,21 @@ Made in naxo25
 
 
 	
-##### Config sublime text
+##### Sublime text config
 
-    Console wrap
     Matherial Theme
+    JsPrettier
     StandardFormat
+    SublimeLinter
+    SublimeLinter-contrib-standard
     tailwind CSS Autocomplete
     Vue syntax highlight
+    Console wrap
     
 ##### Snippets for sublime
-
 https://github.com/naxo25/Snippets-Copilot
+
+##### Plugins
+[Prettier](https://standardjs.com/#sublime-text)
+
+[standardjs](https://standardjs.com/#sublime-text)
