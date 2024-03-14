@@ -78,9 +78,14 @@ https://github.com/naxo25/alias-for-linux
         #Open url in default browser
         webbrowser.open(url);
 
-Atajos, "brave" "google-chrome" "smerge" "subl"
+Ejemplos de atajo, "brave" "google-chrome" "smerge" "subl"
 
-Esté codigo es para saltar entre aplicaciones usando atajos del teclado.
+
+Ejemplos de atajos para el teclado del sistema.
+
+![](./ejemplo_atajos.png)
+
+Esté codigo es para saltar entre aplicaciones en linux usando atajos del teclado.
 Made in naxo25
 
 
