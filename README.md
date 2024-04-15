@@ -100,6 +100,9 @@ Made in naxo25
     tailwind CSS Autocomplete
     Vue syntax highlight
     Console wrap
+
+##### Otras configuraciones para Sublime text
+https://manuais.iessanclemente.net/index.php/Tutorial_sobre_editor_Sublime_Text_3
     
 ##### Snippets for sublime
 https://github.com/naxo25/Snippets-Copilot
